@@ -8,4 +8,14 @@ public class Weather {
     private Cloudiness cloudiness;
     private int precipitation;
 
+    public Weather(Direction windDirection,int windSpeed,int minTemperature, int maxTemperature,Cloudiness cloudiness,int precipitation) {
+    this.windDirection = windDirection;
+    this.windSpeed = windSpeed;
+    this.minTemperature = minTemperature;
+    this.maxTemperature = maxTemperature;
+    this.cloudiness = cloudiness;
+    this.precipitation = precipitation;
+    }
+
+
 }
